@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc239591d7a49d45ad2daf0f1127591, type: 3}
+  m_Name: Infantry
+  m_EditorClassIdentifier: 
+  unitTypeName: Infantry
+  hasTurret: 0
+  description: A basic infantry unit.
+  buildCost: 200
+  buyCosts: 400
+  attackDamage: 10
+  totalHealth: 100
+  totalArmour: 100
+  movementSpeed: 5
+  fireRate: 3
+  attackRange: 50
